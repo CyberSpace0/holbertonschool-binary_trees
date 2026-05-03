@@ -5,7 +5,7 @@
 
 
 /**
-* binary_tree_insert_left - entry point
+* binary_tree_insert_right - entry point
 * @parent: string to generate the real key for dictionary
 * @value: value
 * Return: always (0) success
