@@ -20,11 +20,10 @@ return (NULL);
 node = malloc(sizeof(binary_tree_t));
 if (node == NULL)
 {
-free(node);
 return (NULL);
 }
 node->n = value;
-node->parent = NULL;
+node->parent = parent;
 node->left = NULL;
 node->right = NULL;
 
