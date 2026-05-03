@@ -6,7 +6,7 @@
 
 /**
 * binary_tree_preorder - entry point
-* @node: string to generate the real key for dictionary
+* @tree: string to generate the real key for dictionary
 * @func: pointer function
 * Return: always (0) success
 */
