@@ -15,7 +15,7 @@ size_t right = 0, left = 0;
 binary_tree_t *node, *tmp;
 if (tree == NULL)
 {
-return (0);
+return (-1);
 }
 node = tree->left;
 tmp = tree->right;
@@ -44,5 +44,5 @@ tmp = tmp->right;
 }
 }
 
-return ((right > left) ? right : left);
+return ((right > left) ? right : left) + 1;
 }
