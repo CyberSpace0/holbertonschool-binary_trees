@@ -30,7 +30,8 @@ node->right = NULL;
 
 if (parent->left != NULL)
 {
-node->parent = parent->left;
+node->left = parent->left;
+parent->left->parent = node;
 }
 
 
