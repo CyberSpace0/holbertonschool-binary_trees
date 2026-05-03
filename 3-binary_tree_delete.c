@@ -5,9 +5,8 @@
 
 
 /**
-* binary_tree_insert_right - entry point
-* @parent: string to generate the real key for dictionary
-* @value: value
+* binary_tree_delete - entry point
+* @tree: string to generate the real key for dictionary
 * Return: always (0) success
 */
 void binary_tree_delete(binary_tree_t *tree)
