@@ -22,12 +22,26 @@ tmp = tree->right;
 while (node != NULL)
 {
 left++;
+if (node->left == NULL)
+{
+node = node->right;
+}
+else
+{
 node = node->left;
+}
 }
 while (tmp != NULL)
 {
 right++;
+if (tmp->right == NULL)
+{
+tmp = tmp->left;
+}
+else
+{
 tmp = tmp->right;
+}
 }
 
 return ((right > left) ? right : left);
