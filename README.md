@@ -174,7 +174,7 @@ By completing this project, you should be able to:
 
 ## ✍ Author
 
-Holberton Student
+Azzam Al duyuli & abdulrahman Wadani
 
 ---
 
