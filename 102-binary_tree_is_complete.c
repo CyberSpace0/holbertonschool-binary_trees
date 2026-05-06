@@ -20,4 +20,5 @@ if (binary_tree_depth(tree->left) == binary_tree_depth(tree->right))
 {
 return (1);
 }
+return (0);
 }
